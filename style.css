@@ -1,0 +1,383 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    ;
+}
+
+body {
+    background-color: rgb(241, 242, 244);
+    /* overflow-x: hidden; */
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+
+}
+
+.header-container {
+    background-color: white;
+    width: 100%;
+    height: 67px;
+    display: flex;
+    align-items: center;
+    /* padding-right: 10px; */
+
+}
+
+.image-text-container {
+    display: flex;
+    width: 66%;
+}
+
+.flipkart-explore-plus {
+    margin-left: 30px;
+}
+
+
+.header-logo-after-textBox {
+    display: flex;
+    width: 38%;
+    padding-left: 20px;
+}
+
+.header-p {
+    font-size: 16px;
+}
+
+.flipkart-explore-plus {
+    margin-right: 20px;
+
+}
+
+.search-text {
+    background-color: rgb(240, 245, 255);
+    display: flex;
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    /* margin-right: 15px; */
+    margin-left: 15px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.search-text form {
+    width: 100%;
+}
+
+.search-logo {
+    width: 20px;
+    padding: 15px;
+    margin-right: 5px;
+}
+
+.search-text input {
+    font-weight: 400;
+    margin-left: 10px;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: rgb(108, 109, 130);
+}
+
+.search-text input::placeholder {
+    font-size: 17.5px;
+}
+
+/* login -  button */
+.login-btn {
+    padding-right: 10%;
+}
+
+.login-text p {
+    font-size: 17px;
+}
+
+#login-btn {
+    display: flex;
+    width: 100px;
+    background-color: transparent;
+    border: none;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.shopping-logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-right: 8%;
+}
+
+.shopping-logo img {
+    margin-right: 10px;
+}
+
+.business-logo {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    padding-right: 8%;
+}
+
+.business-logo img {
+    margin-right: 10px;
+}
+
+.three-dots {
+    cursor: pointer;
+    padding-right: 8%;
+}
+
+                                                            /* Main */
+
+main {
+    margin: 0 auto;
+    overflow-x: hidden;
+    width: 98%;
+    height: 100%;
+}
+
+
+
+.section1 {
+    margin-top: 8px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding-left: 165px;
+    padding-right: 145px;
+    background-color: white;
+}
+
+
+.after-heading-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 125px;
+    background-color: white;
+}
+
+
+.header-after-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+
+.header-after-img {
+    margin-bottom: 10px;
+    width: 64px;
+
+}
+
+.text-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow {
+    width: 15px;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+
+                                                        /* Section 2 */
+
+.section2 {
+    margin-top: 16px;
+}
+
+.slider {
+    display: flex;
+}
+
+.section2 img {
+    width: 100%;
+}
+
+.slides {
+    width: 100%;
+    transition: 0s;
+}
+
+.btn-container {
+    margin-top: 14px;
+
+}
+
+.gonext {
+    position: absolute;
+    top: 42%;
+    width: 40px;
+    height: 80px;
+    border: none;
+    outline: none;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+
+.goprev {
+    position: absolute;
+    right: 15px;
+    top: 42%;
+    width: 40px;
+    height: 80px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    cursor: pointer;
+}
+
+                                                        /* Section 3 */
+
+.section3{
+    margin-top: 16px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.electronics-container{
+    height: 100%;
+    flex-direction: column;
+    padding-top: 35px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.electronics-container::-webkit-scrollbar{
+    display: none;
+}
+
+.electronics-container > p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.all-product{
+    display: flex;
+    flex-direction: row;
+    height: 82%;
+}
+
+.product-details{
+    border: 1px solid rgb(213, 204, 204);
+    border-radius: 4px;
+    width: 200px;
+    height: 100%;
+    margin-right: 15px;  
+}
+
+.product-details img{
+    width: 200px;
+    height: 170px;
+    padding: 8px;
+}
+
+
+
+.product-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.product-name{
+    margin-top: 11px;
+}
+
+.product-price{
+    font-size: 16px;
+    margin-top: 3px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+/* footer */
+
+.footerSection {
+    max-width: 1719px;
+    /* height: 346px; */
+    height: 300px;
+    background-color: #172337;
+    display: flex;
+
+}
+
+.footerLeft {
+    display: flex;
+    width: 50%;
+    margin-left: 65px;
+    justify-content: space-evenly;
+}
+
+.footerInfo {
+    width: 252px;
+    height: 194px;
+    padding-top: 40px;
+}
+
+.footerInfoHeading {
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 9px;
+}
+
+.footerContent {
+    color: #ffffff;
+    font-size: 12px;
+
+    line-height: 2;
+}
+
+.footerRight {
+    display: flex;
+    width: 50%;
+    margin-right: 30px;
+    justify-content: space-evenly;
+}
+
+.footerExtras {
+    margin-top: 0.35px;
+    background-color: #172337;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 1719px;
+    height: 70px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 2;
+    padding-left: 25px;
+    padding-right: 10px;
+}
+
+.for-right-border{
+    border-right: 1px solid white;
+    margin-top: 40px;
+}
