@@ -6,7 +6,7 @@
 This repository contains the frontend implementation of a Flipkart clone, developed as a project to showcase HTML, CSS, and JavaScript skills. The project focuses on replicating the user interface of the popular e-commerce platform Flipkart.
 
 ## Features
-- Responsive design for various screen sizes
+- Responsive design coming soon.
 - Home page showcasing product categories and featured items
 - Product listing pages with dynamic content loading
 - Product details page with additional information
