@@ -24,8 +24,9 @@ To view the project locally, follow these steps:
 2. Open the `index.html` file in your preferred web browser.
 
 ## Screenshots
-![Product Listing](images/flipkart2.png)
 ![Contact Details](images/flipkart3.png)
+![Product Listing](images/flipkart2.png)
+
 
 ## Contributing
 If you'd like to contribute or have suggestions, feel free to create an issue or submit a pull request.
