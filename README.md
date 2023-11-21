@@ -1,5 +1,7 @@
 # Flipkart Clone - Frontend
 
+WEBSITE LIVE BUT IN DESKTOP VERSION :- (https://adityadwivedi2002.github.io/Flipkart-Clone/)
+
 ![Flipkart Clone](images/flipkart1.png)
 
 ## Overview
